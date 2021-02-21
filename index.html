@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/main.css">
+    <title>Mark Domeracki</title>
+</head>
+<body>
+    <nav class="header-nav">
+        <img id="logo" src="./assets/MTN-Web-Services.png">
+        <ul>            
+            <li><a href="index.php">Home</a></li>
+            <li><a href="includes/about.php">About</a></li>
+            <li><a href="includes/services.php">Services</a></li>
+            <li><a href="includes/contact.php">Contact</a></li>
+        </ul>
+    </nav>
+    
+    <style>
+        .header-nav{
+            display: flex;
+            background:black;       
+            height: 90px;      
+            align-items: center;
+        }
+
+        li, a{
+            display: inline-flex;
+            align-items: center;
+            color: white;
+            list-style: none;
+            text-decoration: none;
+            flex: 1;
+            justify-content: space-between;
+            padding-left: 55px;
+            font-size: 30px;
+        }
+
+        #logo{
+            width: 100px;
+            height: 110px;
+        }
+    </style>
+
+  <header class="hero-img">   
+      <div class="container">
+        <h1 class="intro-text">MTN Web Services</h1>
+        <span id="quote-text">Quotes will go here...</span> 
+      </div>  
+  </header>
+  <style>
+      .hero-img{
+          display: grid;
+          grid-column: 150px;
+          justify-items: center;
+          align-items: center;
+          background-image: url('./assets/matterhorn-507014_1280.jpg');
+          background-position: center;
+          height: 800px;
+          background-size: cover;
+          background-repeat: no-repeat;                 
+      }
+
+      .intro-text{
+          font-size: 40px;
+          padding-left: 150px;
+      }
+  </style>
+
+
+</body>
+</html>
