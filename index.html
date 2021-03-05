@@ -4,71 +4,98 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/main.css">
-    <title>Mark Domeracki</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/site.css"/>
+    <title>MTN Web Services</title>
 </head>
 <body>
-    <nav class="header-nav">
-        <img id="logo" src="./assets/MTN-Web-Services.png">
-        <ul>            
-            <li><a href="index.php">Home</a></li>
-            <li><a href="includes/about.php">About</a></li>
-            <li><a href="includes/services.php">Services</a></li>
-            <li><a href="includes/contact.php">Contact</a></li>
-        </ul>
-    </nav>
-    
-    <style>
-        .header-nav{
-            display: flex;
-            background:black;       
-            height: 90px;      
-            align-items: center;
-        }
+    <!-- Start Nav -->
+  <div class="container-fluid">
+    <nav id="topNav" class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="#">MTN Web Services</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+              <li class="nav-item">
+                <a class="nav-link active" aria-current="page" href="#">About</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Services</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#">Comtact</a>
+              </li>            
+            </ul>
+          </div>
+        </div>
+      </nav>
+  </div>
+    <!-- End Nav. -->
 
-        li, a{
-            display: inline-flex;
-            align-items: center;
-            color: white;
-            list-style: none;
-            text-decoration: none;
-            flex: 1;
-            justify-content: space-between;
-            padding-left: 55px;
-            font-size: 30px;
-        }
+    <!-- Banner section -->
+        <div class="banner-section">
+            <h1 class="text-center">Welcome</h1>
+        </div>
+    <!-- End Banner section -->
+    <!-- Services section -->
+    <div class="cards-container">
+        <div class="card-one">
+            <div class="card" style="width: 18rem;">
+                <img src="/assets/student-849825_640.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">Web Development</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="card-two">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/code-4918187_640.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">App Development</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="card-three">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/search-engine-optimization-1359429_640.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">SEO</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+        <div class="card-four">
+            <div class="card" style="width: 18rem;">
+                <img src="./assets/wordpress-589121_640.jpg" class="card-img-top card-img" alt="...">
+                <div class="card-body">
+                  <h5 class="card-title">CMS Development</h5>
+                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+                  <a href="#" class="btn btn-primary">Go somewhere</a>
+                </div>
+              </div>
+        </div>
+    </div>     
+    <!-- End Servics section -->
 
-        #logo{
-            width: 100px;
-            height: 110px;
-        }
-    </style>
-
-  <header class="hero-img">   
-      <div class="container">
-        <h1 class="intro-text">MTN Web Services</h1>
-        <span id="quote-text">Quotes will go here...</span> 
-      </div>  
-  </header>
-  <style>
-      .hero-img{
-          display: grid;
-          grid-column: 150px;
-          justify-items: center;
-          align-items: center;
-          background-image: url('./assets/matterhorn-507014_1280.jpg');
-          background-position: center;
-          height: 800px;
-          background-size: cover;
-          background-repeat: no-repeat;                 
-      }
-
-      .intro-text{
-          font-size: 40px;
-          padding-left: 150px;
-      }
-  </style>
-
+    <!-- CTA section -->
+        <div class="cta">
+            <div class="row text-center center-block" >
+                <div class="col-6 text-center">
+                    <h1>Let's build something amazing!</h1>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias inventore eum, eligendi cupiditate placeat temporibus nulla veniam distinctio
+                     autem labore porro nesciunt officiis alias dignissimos laudantium itaque exercitationem! Possimus, aspernatur.</p>
+                </div>
+            </div>
+        </div>
+    <!-- End CTA section -->
 
 </body>
 </html>
