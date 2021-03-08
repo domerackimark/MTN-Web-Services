@@ -1,101 +1,85 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
-    <link rel="stylesheet" href="./css/site.css"/>
-    <title>MTN Web Services</title>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+  <link rel="stylesheet" href="./css/site.css">
+  <title>MTN Web Services</title>
 </head>
 <body>
-    <!-- Start Nav -->
-  <div class="container-fluid">
-    <nav id="topNav" class="navbar navbar-expand-lg navbar-light bg-light">
-        <div class="container-fluid">
-          <a class="navbar-brand" href="#">MTN Web Services</a>
-          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNav">
-            <ul class="navbar-nav">
-              <li class="nav-item">
-                <a class="nav-link active" aria-current="page" href="#">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Services</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="#">Comtact</a>
-              </li>            
-            </ul>
-          </div>
+  <section id="page">    
+    <nav>
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#">Navbar</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav">
+            <li class="nav-item ">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Features</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Pricing</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+            </li>
+          </ul>
         </div>
-      </nav>
-  </div>
-    <!-- End Nav. -->
-
-    <!-- Banner section -->
-        <div class="banner-section">
-            <h1 class="text-center">Welcome</h1>
+      </div>
+    </nav>
+    <main>Main area</main>
+    <article id="cards">
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/code-4918187_640.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-    <!-- End Banner section -->
-    <!-- Services section -->
-    <div class="cards-container">
-        <div class="card-one">
-            <div class="card" style="width: 18rem;">
-                <img src="/assets/student-849825_640.jpg" class="card-img-top card-img" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Web Development</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/laptop-593673_640.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <div class="card-two">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/code-4918187_640.jpg" class="card-img-top card-img" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">App Development</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/wordpress-589121_640.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <div class="card-three">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/search-engine-optimization-1359429_640.jpg" class="card-img-top card-img" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">SEO</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
+      </div>
+      <div class="card" style="width: 18rem;">
+        <img src="./assets/work-1627703_640.jpg" class="card-img-top" alt="...">
+        <div class="card-body">
+          <h5 class="card-title">Card title</h5>
+          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <a href="#" class="btn btn-primary">Go somewhere</a>
         </div>
-        <div class="card-four">
-            <div class="card" style="width: 18rem;">
-                <img src="./assets/wordpress-589121_640.jpg" class="card-img-top card-img" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">CMS Development</h5>
-                  <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
-                  <a href="#" class="btn btn-primary">Go somewhere</a>
-                </div>
-              </div>
-        </div>
-    </div>     
-    <!-- End Servics section -->
-
-    <!-- CTA section -->
-        <div class="cta">
-            <div class="row text-center center-block" >
-                <div class="col-6 text-center">
-                    <h1>Let's build something amazing!</h1>
-                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias inventore eum, eligendi cupiditate placeat temporibus nulla veniam distinctio
-                     autem labore porro nesciunt officiis alias dignissimos laudantium itaque exercitationem! Possimus, aspernatur.</p>
-                </div>
-            </div>
-        </div>
-    <!-- End CTA section -->
-
+      </div>
+    </article>
+    <article id="cta">
+      <div class="cta-info">
+        <h1>Get in touch!</h1>
+        <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Reiciendis magnam ullam odit eius aliquid!
+           Eaque obcaecati sed beatae doloribus illum dolores a sunt?
+            Eos harum nostrum libero assumenda deserunt magnam!
+        </p>
+        <button class="btn btn-primary">Let's Go</button>
+      </div>    
+    </article>
+    <footer>Footer</footer>
+  </section>
 </body>
 </html>
